@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/psanford/btf/internal"
 )
 
 func MustKernelVersion() internal.Version {

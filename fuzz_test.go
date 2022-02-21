@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/psanford/btf/internal"
 )
 
 func FuzzSpec(f *testing.F) {

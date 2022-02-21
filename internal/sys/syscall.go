@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/psanford/btf/internal/unix"
 )
 
 // BPF wraps SYS_BPF.

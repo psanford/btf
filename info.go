@@ -3,9 +3,9 @@ package btf
 import (
 	"bytes"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/psanford/btf/internal"
+	"github.com/psanford/btf/internal/sys"
+	"github.com/psanford/btf/internal/unix"
 )
 
 // info describes a BTF object.

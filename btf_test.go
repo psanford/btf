@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/psanford/btf/internal"
+	"github.com/psanford/btf/internal/testutils"
 )
 
 var vmlinux struct {

@@ -8,7 +8,7 @@ import (
 	"math"
 
 	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
+	"github.com/psanford/btf/internal"
 )
 
 // extInfo contains extended program metadata.

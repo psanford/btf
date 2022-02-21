@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/psanford/btf/internal/testutils"
 )
 
 func TestCoreRelocationLoad(t *testing.T) {
